@@ -8,6 +8,6 @@ def subrayar_texto():
     return texto_copiado
 
 toSpeak = pyttsx3.init()
-toSpeak.setProperty('rate', 125)  # Ajusta la velocidad del habla a 0.8 (más lento)
+toSpeak.setProperty('rate', 125)
 toSpeak.say(subrayar_texto())
 toSpeak.runAndWait()
